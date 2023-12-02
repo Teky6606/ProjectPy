@@ -31,4 +31,25 @@ while dk:
     if luachon == 2:
         gọi ham tính BMI
     '''
-        
+#khai boa các hàm
+def tinhtong():
+    print(" mình đang tính tổng chờ tí ....")
+def menu():
+    while True:
+        print("*************** CHƯƠNG TRÌNH NHỎ - ĐOẠN CODE DÀI **************")
+        print(" 1.tính tổng\n2.đo lường sức khỏe\n3.tìm số đảo ngược\n4.thoát")
+        luachon = int(input("Nhập lựa chọn : "))
+        if luachon == 1:
+            # gọi hàm tính tổng 
+            tinhtong()
+        elif  luachon == 2:
+            # gọi hàm BMI
+            print("chức nang 2")
+        elif luachon == 3:
+            print("chức nang 3")
+        elif luachon == 4:
+            break
+        else:
+            print("vui long chon đúng ")
+            
+menu()
